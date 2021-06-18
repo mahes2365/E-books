@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<title>E-book store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--home-->
+    <div id="home">
+        <div class="home row">
+            <div class="inner col-d-12 col-m-1">
+                <div class="img col-d-8 col-m-1">
+                    <img src="./img/bg.jpg" alt="homebg">
+                </div>
+
+                <div class="reading col-d-4 col-m-1">
+                    <div class="heads">
+                        <h2>Libros</h2>
+                        <h4>Welcomes You!</h4>
+                    </div>
+                    <div class="para">
+                        <p>Reading the books is the open door of new knowledge to enlighten your minds. On the Libros there are many books available based on the genres and you can choose your favourite genres and.</p>
+                    </div>
+                    <div class="reading-button">
+                        <a href="#Genres">Start reading</a>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-bar col-d-12 nav-m-bar">
+                <nav class="nav-logo col-d-5 col-m-1">
+                    <a href="#home">Libros</a>
+                    <nav class="nav-icon">
+                        <div class="bar-1"></div>
+                        <div class="bar-2"></div>
+                        <div class="bar-3"></div>
+                    </nav>
+                </nav>
+                <nav class="nav-link col-d-7" id="nav-trans">
+                    <nav><a href="#home">Home</a></nav>
+                    <nav><a href="#Genres">Genres</a></nav>
+                    <nav><a href="#Contact">Contact Us</a></nav>
+                    <nav><a href="#Register">Sign In</a></nav>
+                </nav>
+            </nav>
+
+
+        </div>
+    </div>
+
+    <!--Genres-->
+
+    <div id="Genres">
+        <div class="row" id="space">
+            <!--Image Container 1-->
+            <div class="img-container col-d-12 col-m-1">
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="top-center">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/aaa.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-1">
+                            <h3>Action and Adventure Books</h3>
+                            <p>Action and Adventure books constatly have you on the edge of your seat with excitement, as your fave main character repeatedly finds themselves in high stakes situations. The protagonist has an ultimate goal to achieve and
+                                is always put in risky, often dangerous situations.</p>
+                            <a href="#action"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="top-center">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/bio.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-2">
+                            <h3>Biographies and Autobiographies</h3>
+                            <p>Serving as an official account of the details and events of a person's life span, autobiographies are written by the subject themselves, while biographies are written by an author who is not the focus of the book.</p>
+                            <a href="#bio"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="top-center">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/classical.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-3">
+                            <h3>Classical Books</h3>
+                            <p>You may think of these books as the throwback reading you were assigned in English class. The classics have been around for decades, and were often groundbreaking stories at their publish time, and serving as the foundation
+                                for many popular works we read today.</p>
+                            <a href="#classics"><button class="button">Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Image Container 2-->
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/comic.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-4">
+                            <h3>Comic Books</h3>
+                            <p>The stories in comic books and graphic novels are presented to the reader through engaging, sequential narrative art (illustration and typography) that's either presented in specific design or the traditional panel layout you
+                                find in comics.</p>
+                            <a href="#comic"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/cook.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-5">
+                            <h3>Cooking Books</h3>
+                            <p>Traditionally penned by professional chefs or even your favorite celebs, cookbooks offer an appetizing collection of recipes, specific to a theme, cuisine, or experience chosen by the author.</p>
+                            <a href="#cook"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/crime.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-6">
+                            <h3>Crime Books</h3>
+                            <p>Like its much-loved television conterparts, true crime books chronicle and examine actual crimes and events in exacting detail, with many focusing on infamous murders, kidnappings, and the exploits of serial killers.</p>
+                            <a href="#crime"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Image Container 3-->
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/fantasy.png" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-7">
+                            <h3>Fantasy Books</h3>
+                            <p>While usually set in a fictional imagined world-in opposition. The fantasy books include prominent elements of magic, mythology, or the supernatural.</p>
+                            <a href="#fantasy"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/history.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-8">
+                            <h3>History Books</h3>
+                            <p>These books chronicle and layout a specific moment in time, with a goal to educate and inform the reader, looking at all parts of the world at any given moment.</p>
+                            <a href="#history"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/horror.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-9">
+                            <h3>Horror Books</h3>
+                            <p>Meant to cause discomfort and fear for both the character and readers, horror writers often make use supernatural and paranormal elements in morbid stories that are sometimes a little too realistic. The master of horror fiction?
+                                None other than Stephen King.</p>
+                            <a href="#horror"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Image Container 4-->
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/literature.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-10">
+                            <h3>Literary Fiction Books</h3>
+                            <p>Though it can be seen as a broad genre that encompasses many others, literary fiction refers to the perceived artistic writing style of the author. Theri prose is meant to evoke deep thought through stories that offer personal
+                                or social commentary on a particular theme.</p>
+                            <a href="#literature"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/mystery_detective.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-11">
+                            <h3>Detective and Mystery Books</h3>
+                            <p>The plot always revolves around a crime of sorts that must be solved-or foiled-by the protagonists.</p>
+                            <a href="#mystery"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/poetry.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-12">
+                            <h3>Poetry</h3>
+                            <p>Poetry a form of written art from the author and choose a particular rhythm and style to evoke and portray various emotions and ideas. Sometimes the message is clear while with others, the meaning is hidden behind a play on
+                                words it all depends on the writer's style, intent, and chosen theme.</p>
+                            <a href="#poetry"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Image Container 5-->
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/Romance.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-13">
+                            <h3>Romance</h3>
+                            <p>The genre that makes your heart all warm and fuzzy focuses on the love story of the main protagonists. This world of fiction is extremely wide-reaching in and of itself, as it has a variety of sug-genres including: contenmporary
+                                romance, historical, paranormal, and the steamier erotica.</p>
+                            <a href="#Romance"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/sci fi.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-14">
+                            <h3>Science Fiction (Sci-Fi)</h3>
+                            <p>Though They're often thought of in the same vein as fantasy, what distingusishes science fiction stories is that they lean heavily on themes of technology and future science.</p>
+                            <a href="#sci fi"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                    <div class="flip-inner">
+                        <div class="front">
+                            <img src="./img/suspense.jpg" width="100%" height="100%">
+                        </div>
+                        <div class="back content" id="content-15">
+                            <h3>Suspense and Thriller Books</h3>
+                            <p>While they often encompass the same elements as mystery books, the suspense and thriller genre sees the hero attempt to stop and defeat the villian to save theri own life rather than uncover a specific crime. Thrillers typically
+                                include cliffhangers and deception to encourage supense.</p>
+                            <a href="#Suspense"><button>Click Here!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+
+    <div id="Contact">
+        <div class="row">
+            <div class="container col-d-12">
+
+                <div class="col-d-6 contact-first col-m-1" data-aos="fade-in">
+                    <div class="contact-heading col-d-12">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="col-d-12 contact-form col-m-1">
+                        <form>
+                            <label for="fullname">Name </label><br>
+                            <input type="text" id='name' name="fullname" placeholder="Enter your name" required><br>
+                            <label for="email">Email </label><br>
+                            <input type="email" id='email' name="email" placeholder="Enter your email" required><br>
+                            <label for="message">Message </label><br>
+                            <textarea id="message" name="message" rows="5" cols="10" placeholder="Messages here.." required></textarea><br>
+                            <input type="submit" name="submit" value="Send">
+                        </form>
+                    </div>
+                    <div class="text col-d-12">
+                        <p>You can find us on:</p>
+                    </div>
+                    <div class="icons col-d-12">
+                        <div data-aos="zoom-out" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000"><a href="ripples.html"><i class="fab fa-facebook"></i></a></div>
+                        <div data-aos="zoom-out" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500"><a href="#instagram"><i class="fab fa-instagram"></i></a></div>
+                        <div data-aos="zoom-out" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"><a href="#twitter"><i class="fab fa-twitter"></i></a></div>
+                        <div data-aos="zoom-out" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2500"><a href="#whatsapp"><i class="fab fa-whatsapp"></i></a></div>
+                    </div>
+                </div>
+                <div class="contact-second col-d-6" data-aos="fade-in">
+                    <img src="./img/contact us.jpg" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sign In-->
+    <div id="Register">
+        <div class="row">
+            <div id="sign-in">
+                <div class="sign-in-container col-d-12" id="sign-in">
+                    <div class="sign-in-first col-d-6" data-aos="fade-up">
+                        <img src="./img/sign in.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="sign-in col-d-6 col-m-1">
+                        <div class="col-d-12 avatar">
+                            <img src="./img/avatar.jpg" width="35%">
+                        </div>
+                        <div class="col-d-12 sign-in-heading">
+                            <h4>Sign In</h4>
+                        </div>
+                        <div class="col-d-12 col-m-1 form">
+                            <form autocomplete="off">
+                                <div class="user-text-email">
+                                    <input type="email" id='username' name="fullname" required>
+                                    <label>Email</label>
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="password">
+                                    <input type="password" id='pwd' name="password" required>
+                                    <label for="pwd">Password</label>
+                                    <i class="fas fa-lock"></i>
+                                    <i class="far fa-eye" onclick="show()"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="f-password">
+                                    <h5><a href="#reget">Forgot password?</a></h5><br>
+                                </div>
+                                <div id="submit">
+                                    <input type="submit" name="submit" value="Sign In">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-d-12 sign-up-text col-m-1">
+                            <h4>Don't have an account?
+                                <a href="#sign-up" onclick="signup()">Sign up</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sign-up">
+                <div class="sign-up-container col-d-12">
+                    <div class="sign-up col-d-6 col-m-1">
+                        <div class="col-d-12 avatar">
+                            <img src="./img/avatar.jpg" width="35%">
+                        </div>
+                        <div class="col-d-12 sign-in-heading">
+                            <h4>Sign Up</h4>
+                        </div>
+                        <div class="col-d-12 col-m-1 form">
+                            <form autocomplete="off">
+                                <div class="user-text">
+                                    <input type="text" id='username' name="fullname" required>
+                                    <label>Username</label>
+                                    <i class="fas fa-user-alt"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="user-text-email">
+                                    <input type="email" id='email' name="email" required>
+                                    <label>Email</label>
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="password">
+                                    <input type="password" id='pwd2' name="password" required>
+                                    <label for="pwd">Password</label>
+                                    <i class="fas fa-lock"></i>
+                                    <i class="far fa-eye" onclick="show2()"></i>
+                                    <div class="border"></div>
+                                </div>
+                                <div id="submit">
+                                    <input type="submit" name="submit" value="Sign Up">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-d-12 sign-in-text col-m-1">
+                            <h4>Already have an account?
+                                <a href="#sign-in" onclick="signin()">Sign in</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="sign-up-second col-d-6">
+                        <img src="./img/signup.jpg" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease',
+            delay: 110,
+            mirror: 'true',
+        });
+    </script>
+
+    <script src="./file.js">
+    </script>
+</body>
+
+</html>
